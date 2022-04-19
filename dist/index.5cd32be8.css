@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ec3514;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+.header__logo img {
+  width: 50px;
+}
+
+.header__navbar {
+  gap: 20px;
+  display: flex;
+}
+
+form {
+  align-items: center;
+  display: flex;
+}
+
+ul {
+  gap: 20px;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.intro {
+  width: 100%;
+  height: 70vh;
+  background-image: url("bg-haerder.52f563f7.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.intro:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #00000059;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.5cd32be8.css.map */
